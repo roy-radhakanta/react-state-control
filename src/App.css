@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.jockline{padding: 2rem;
+width: 50%;
+margin: auto;}
+
+.jockline .jock{
+    margin-bottom: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.jockline .jock .jock__heading{
+    margin-bottom: 0.7rem;
+    font-size: 1.6rem;
+    color: orangered;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.jockline .jock  .jock__paragraph p{
+    font-size: 1.3rem;
+    color: goldenrod;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.jockline .jock .jock__button{
+    margin-top: 2rem;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.jockline .jock .jock__button button{
+    border:none;
+    outline:none;
+    padding: .5rem 1.5rem;
+    background: blueviolet;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;  
+    cursor: pointer;
 }
